@@ -1,0 +1,259 @@
+html{
+	height: 100%;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "roboto";
+}
+
+header {
+	width: 100%;
+	background: url(../img/back.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-bottom: 105px;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+	display: block;
+}
+
+.navbar {
+	display: flex;
+	justify-content: space-between;
+}
+.navbar__navigation {
+	font-weight: "400";
+	list-style: none;
+	font-size: 18px;
+	letter-spacing: 0px;
+	margin-top: 19px;
+	display: inline;
+	width: 395px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: 10px;
+}
+
+.navbar__navigation__link {
+	color: #ffffff;
+	display: inline;
+	text-decoration: none;
+	font-weight: 400;
+	letter-spacing: 0px;
+}
+
+.navbar__navigation__link:hover{
+	color: #00e0d0;
+	transition: all 0.4s;
+}
+
+.title__main {
+	text-align: center;
+	font-size: 60px;
+	color: #ffffff;
+	letter-spacing: 1px;
+	font-weight: 700;
+	width: 780px;
+	height: 74px;
+	margin-left: 90px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+	position: absolute;
+	top: 140px;
+}
+
+.title__college {
+	letter-spacing: 2px;
+	font-size: 48px;
+	font-weight: 900;
+	color: #00e0d0;
+	line-height: 48px;
+	text-align: center;
+	margin: 60px auto;
+}
+
+.title__content {
+	width: 820px;
+	font-size: 36px;
+	letter-spacing: 2px;
+	line-height: 36px;
+	color: #ffffff;
+	font-weight: 400;
+	text-align: center;
+	margin: 35px auto;
+}
+
+.title__button__link {
+	font-size: 16px;
+	color: #00e0d0;
+	font-weight: 400;
+	text-align: center;
+	width: 180px;
+	height: 40px;
+	margin-top: 65px;
+	margin-left: 390px;
+	outline: none;
+	background: none;
+	border-color: #00e0d0;
+}
+
+.title__button__link:hover{
+	background-color: #00e0d0;
+	border-color: #ffffff;
+	color: #ffffff;
+	transition: all 0.4s;	
+}
+
+.computer__main {
+	margin: 0 auto;
+	margin-top: 35px;
+	font-size: 36px;
+	letter-spacing: 2px;
+	line-height: 36px;
+	color: #00e0d0;
+	font-weight: 700;
+	text-align: center;
+}
+
+.computer__title {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 36px;
+	letter-spacing: 2px;
+	line-height: 36px;
+	color: #1c2550;
+	font-weight: 700;
+	text-align: center;
+}
+
+.computer__content {
+	margin: 0 auto;
+	margin-bottom: 10px;
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 36px;
+	color: #000000;
+	font-weight: 400;
+	text-align: center;
+}
+
+.computer__wrapper {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.computer__box {
+	width: 380px;
+	height: 325px;
+	background-color: #00e0d0;
+	margin: 0px 10px 81px 10px;
+	filter: drop-shadow(3.5px 6.062px 2px rgba(27,28,28,0.38));
+}
+
+.computer__box:hover {
+	filter: drop-shadow(11.5px 19.919px 2.5px rgba(27,28,28,0.38));
+	transition: all 0.1s;
+}
+
+.computer__box__img {
+	margin: 3px 2px 0px 2px;
+}
+
+.computer__box__text {
+	font-size: 24px;
+	letter-spacing: 1px;
+	line-height: 36px;
+	color: #1e2651;
+	font-weight: 700;
+	text-align: center;
+}
+
+footer {
+	background-image: url(../img/footer_backgrond.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.footer__wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+.footer__title {
+	margin-top: 15px;
+	margin-bottom: 0;
+	font-size: 31px;
+	letter-spacing: 2px;
+	line-height: 50px;
+	color: #ffffff;
+	font-weight: 400;
+	text-align: center;
+}
+
+.footer__left {
+	margin-right: 10px;
+}
+
+.footer__right {
+	margin-left: 10px;
+}
+
+.footer__right__address {
+	display: flex;
+	align-items: flex-start;
+}
+
+.footer__right__address__text {
+	width: 156px;
+	margin: 0 0 0 15px;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.footer__right__phone {
+	display: flex;
+	align-items: flex-start;
+}
+
+.footer__right__phone__text {
+	margin: 0 0 0 15px;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 400;
+}
+
+.footer__right__social {
+	margin-top: 30px;
+}
+
+.footer__right__social__youtube {
+	margin-right: 10px;
+}
+
+.footer__right__social__www {
+	margin-right: 10px;
+}
+
+.copyright {
+	margin: 0 auto;
+	font-size: 14px;
+	letter-spacing: 0px;
+	line-height: 26px;
+	color: #ffffff;
+	font-weight: 400;
+	font-family: "Roboto";
+	text-align: center;
+}
